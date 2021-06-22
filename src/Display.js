@@ -4,7 +4,7 @@ import firebaseDb from "./firebase";
 
 const Display = () => {
 
-	var [currentId, setCurrentId] = useState('');
+    var [currentId, setCurrentId] = useState('');
     var [contactObjects, setContactObjects] = useState({})
 
 
