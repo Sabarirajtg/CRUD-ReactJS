@@ -8,6 +8,7 @@ function App(){
         <Display />
       </div>
     </div>
+    
   );
   }
   export default App;
