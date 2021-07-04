@@ -7,8 +7,6 @@ const Display = () => {
     var [currentId, setCurrentId] = useState('');
     var [contactObjects, setContactObjects] = useState({})
 
-
-
     useEffect(() => {
         firebaseDb.child('Kind').on('value', snapshot => {
             if (snapshot.val() != null) {
